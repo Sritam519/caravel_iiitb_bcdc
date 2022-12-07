@@ -96,6 +96,7 @@ module user_proj_example #(
     assign io_out[35:28] = Q;
     assign io_out[27:24] = Qz;
     assign io_out[23:20] = Qu;
+    assign io_oeb=0;
     assign CK = wb_clk_i;
     assign RN = wb_rst_i;
     assign EN = io_in[`MPRJ_IO_PADS-9];
